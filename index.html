@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Q1 -->
+<a href="#" onclick="alert('hello')">google</a>
+    <!-- Q1  -->
+    
+    <!-- Q2 -->
+<h2>Mobile Phone lookup</h2>
+<img src="https://www.ineedamobile.com/wp-content/uploads/2019/03/iphone-x-600x598.png" onclick="alert('thanks for purchasing')" alt="">
+<img src="https://www.ineedamobile.com/wp-content/uploads/2019/03/iphone-x-600x598.png" onclick="alert('thanks for purchasing')" alt="">
+<img src="https://www.ineedamobile.com/wp-content/uploads/2019/03/iphone-x-600x598.png" onclick="alert('thanks for purchasing')" alt="">
+<img src="https://www.ineedamobile.com/wp-content/uploads/2019/03/iphone-x-600x598.png" onclick="alert('thanks for purchasing')" alt="">
+    <!-- Q2 -->
+
+    <!-- Q3 -->
+<table border="2">
+<tr>
+    <td>name</td>
+    <td>roll no</td>
+    <td>section</td>
+</tr> 
+<tr>
+    <td>john</td>
+    <td>1</td>
+    <td>A</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+</tr>
+<tr> 
+    <td>john</td>
+    <td>2</td>
+    <td>A</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+</tr>
+<tr> 
+    <td>john</td>
+    <td>3</td>
+    <td>B</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+</tr> 
+<tr>
+    <td>john</td>
+    <td>4</td>
+    <td>B</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+</tr>
+<tr>
+    <td>john</td>
+    <td>5</td>
+    <td>C</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+</tr>
+<tr>
+    <td>john</td>
+    <td>6</td>
+    <td>C</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+</tr>
+<tr>
+    <td>john</td>
+    <td>7</td>
+    <td>D</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+</tr>
+<tr>
+    <td>john</td>
+    <td>8</td>
+    <td>D</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+</tr>
+<tr>
+    <td>john</td>
+    <td>9</td>
+    <td>E</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+</tr>
+<tr>
+    <td>john</td>
+    <td>10</td>
+    <td>E</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+</tr>
+</table>
+    <!-- Q3 -->
+
+    <!-- Q4 -->
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzso1CRPAoN3BU_vpTetwRtV5mtTH4gbfyYSwwwwsmhg&s" onMouseover="src='https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960'" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function deleteRow(button) {
+        var row = button.parentNode.parentNode;
+        row.parentNode.removeChild(row);
+    }
+</script>
+</body>
+</html>
